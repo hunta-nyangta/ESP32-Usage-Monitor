@@ -18,8 +18,6 @@ MCU: ESP32-C3 SuperMini
 
 Display: SSD1306 128x64 I2C OLED
 
-Pin Map: | OLED Pin | ESP32-C3 Pin | | :--- | :--- | | VCC | 3.3V | | GND | GND | | SDA | GPIO 8 | | SCL | GPIO 9 |
-
 **🚀 시작하기 (Getting Started)**
 
 1. 전제 조건 (Prerequisites)
