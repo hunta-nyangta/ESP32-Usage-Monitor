@@ -2,7 +2,9 @@
 
 ESP32-C3와 OLED 디스플레이를 활용하여 PC의 리소스(CPU, GPU, RAM) 사용량을 실시간으로 모니터링하는 대시보드입니다.
 
+
 **✨ 주요 기능 (Features)**
+
 
 **실시간 모니터링**: CPU, GPU, RAM 사용량을 0.5초 단위로 갱신
 
@@ -16,7 +18,9 @@ ESP32-C3와 OLED 디스플레이를 활용하여 PC의 리소스(CPU, GPU, RAM) 
 
 **Display**: SSD1306 128x64 I2C OLED
 
+
 **🚀 시작하기 (Getting Started)**
+
 
 **1. 전제 조건 (Prerequisites)**
 
@@ -50,7 +54,9 @@ Bash
 
 python esp32.py
 
+
 **📝 참고 사항 (Notes)**
+
 
 **가독성 이슈**: OLED 상단 가려짐 현상을 방지하기 위해 UI 좌표를 하단으로 오프셋 조정하였습니다.
 
