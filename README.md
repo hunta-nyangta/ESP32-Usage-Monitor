@@ -19,9 +19,11 @@ ESP32-C3와 OLED 디스플레이를 활용하여 PC의 리소스(CPU, GPU, RAM) 
 **🚀 시작하기 (Getting Started)**
 
 **1. 전제 조건 (Prerequisites)**
+
 PC에 Python 3.x가 설치되어 있어야 합니다.
 
 **2. 라이브러리 설치 (Installation)**
+
 PC 터미널(CMD/PowerShell)에서 아래 명령어를 실행하여 필요한 라이브러리를 설치합니다.
 
 Bash
@@ -29,6 +31,7 @@ Bash
 pip install psutil pyserial
 
 **3. ESP32 펌웨어 업로드 (Firmware)**
+
 VS Code에서 PlatformIO를 실행합니다.
 
 src/main.cpp 코드를 ESP32-C3에 업로드합니다.
@@ -36,6 +39,7 @@ src/main.cpp 코드를 ESP32-C3에 업로드합니다.
 platformio.ini에 U8g2 라이브러리가 포함되어 있는지 확인하세요.
 
 **4. 실행 (Running)**
+
 esp32.py 파일을 엽니다.
 
 자신의 PC 환경에 맞는 COM 포트 번호를 수정합니다. (예: COM3)
